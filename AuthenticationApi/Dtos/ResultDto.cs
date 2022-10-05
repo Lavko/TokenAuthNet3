@@ -2,8 +2,6 @@ namespace AuthenticationApi.Dtos;
 
 public class ResultDto<TResponse>
 {
-    public const string Type = "ResultDto";
-    
     public bool IsSuccess { get; set; }
     
     public TResponse? Response { get; set; }
